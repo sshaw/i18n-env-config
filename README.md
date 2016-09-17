@@ -1,5 +1,7 @@
 # I18n::Env::Config
 
+[![Build Status](https://secure.travis-ci.org/sshaw/i18n-env-config.svg)](https://secure.travis-ci.org/sshaw/i18n-env-config)
+
 Set `I18n.locale` based on the environment variables that control the locale.
 
 This is for Desktop applications only.
