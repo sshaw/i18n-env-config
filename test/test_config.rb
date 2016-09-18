@@ -83,7 +83,7 @@ class TestConfig < Minitest::Test
   end
 
   def test_fallback_to_parent_locale_when_primary_unavailable
-    ENV["LANGUAGES"] = "fr:pt_PR"
+    ENV["LANGUAGES"] = "fr:pt_PT"
     ENV["LANG"] = "pt_BR"
     assert_equal :pt, I18n.locale
   end
